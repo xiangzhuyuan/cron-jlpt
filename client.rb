@@ -1,9 +1,13 @@
 #!/usr/bin/env ruby
 
-require 'yaml'
-require 'pry'
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
+
+require 'yaml'
+require 'pry'
+require 'twitter'
+
 
 def twi_conn
   begin
@@ -35,12 +39,9 @@ def get_twi(source)
   if send_list.any?
     send_list.each do |example|
       begin
-        # target = example[:example].split(/\r?\n/)[0].gsub("\t", " ").squeeze(" ").strip
-        target = example[:example].split(/\r?\n/).sample.gsub("\t", " ").squeeze(" ").strip
-        twi    = "#JLPT (#{example[:level]})<#{example[:title]}> #{target}"
-        puts twi
-        #TODO add all into single web pages
-        twi_list << (twi.length > 140 ? twi.slice(0, 135)+ '...' : twi)
+        content = example[:example].split(/\r?\n/).sample.gsub("\t", " ").squeeze(" ").strip
+        twi     = "#JLPT (#{example[:level]})<#{example[:title]}> #{content}"
+        twi_list << (twi.length > 110 ? twi.slice(0, 110)+ '...' : twi) + "#{example[:short_link]}"
       rescue => e
         puts e.message
       end
@@ -62,6 +63,16 @@ def sent_twi(twi_list)
   end
 end
 
-# sent_twi(get_twi('/home/matt/cron-jlpt/grammar_list.txt'))
+def sent_twi_test(twi_list)
 
-get_twi('./grammar_list_test.yml')
+  begin
+    twi_list.each { |item|
+      puts item
+    }
+  rescue Twitter::Error::Forbidden => e
+    puts e.message
+  end
+end
+
+sent_twi(get_twi('/home/matt/grammar_list_with_id_short_url.yml'))
+#sent_twi_test(get_twi('grammar_list_with_id_short_url.yml'))

@@ -74,5 +74,5 @@ def sent_twi_test(twi_list)
   end
 end
 
-sent_twi(get_twi('/home/matt/grammar_list_with_id_short_url.yml'))
-#sent_twi_test(get_twi('grammar_list_with_id_short_url.yml'))
+#sent_twi_test(get_twi('/home/matt/cron-jlpt/grammar_list_with_id_short_url.yml'))
+sent_twi(get_twi('/home/matt/cron-jlpt/grammar_list_with_id_short_url.yml'))

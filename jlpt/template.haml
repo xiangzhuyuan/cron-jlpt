@@ -1,0 +1,97 @@
+!!!
+%html
+  %head
+    %title No Sidebar - TXT by HTML5 UP
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    /[if lte IE 8]
+  <script src="assets/js/ie/html5shiv.js"></script>
+    %link{:href => "assets/css/main.css", :rel => "stylesheet"}/
+    /[if lte IE 8]
+  <link rel="stylesheet" href="assets/css/ie8.css"/>
+  %body
+    #page-wrapper
+      / Header
+      %header#header
+        .logo.container
+          %div
+            %h1
+              %a#logo{:href => "index.html"} JLPT
+            %p A way to study
+      / Nav
+      %nav#nav
+        %ul
+          %li
+            %a{:href => "index.html"} Home
+          %li.current
+            %a{:href => "no-sidebar.html"} Here
+      / Main
+      #main-wrapper
+        #main.container
+          .row
+            .12u
+              .content
+                / Content
+                %article.box.page-content
+                  %header
+                    %h2 \#{Title}
+                    %p \#{Level}
+                    %ul.meta
+                      %li.icon.fa-clock-o like it?
+                      %li.icon.fa-comments Mark it?
+                  %section
+                    %h3 Example
+                    %ul
+                      %li test
+                      %li test
+                      %li test
+                      %li test
+                      %li test
+      / Footer
+      %footer#footer.container
+        .row{:class => "200%"}
+          .12u
+            / About
+            %section
+              %h2.major
+                %span Thanks for
+              %p
+                Those guys ....
+        .row{:class => "200%"}
+          .12u
+            / Contact
+            %section
+              %h2.major
+                %span Get in touch
+              %ul.contact
+                %li
+                  %a.icon.fa-facebook{:href => "#"}
+                    %span.label Facebook
+                %li
+                  %a.icon.fa-twitter{:href => "#"}
+                    %span.label Twitter
+                %li
+                  %a.icon.fa-instagram{:href => "#"}
+                    %span.label Instagram
+                %li
+                  %a.icon.fa-dribbble{:href => "#"}
+                    %span.label Dribbble
+                %li
+                  %a.icon.fa-google-plus{:href => "#"}
+                    %span.label Google+
+        / Copyright
+        #copyright
+          %ul.menu
+            %li &copy; Untitled. All rights reserved
+            %li
+              Design:
+              %a{:href => "http://html5up.net"} A guy
+    / Scripts
+    %script{:src => "assets/js/jquery.min.js"}
+    %script{:src => "assets/js/jquery.dropotron.min.js"}
+    %script{:src => "assets/js/skel.min.js"}
+    %script{:src => "assets/js/skel-viewport.min.js"}
+    %script{:src => "assets/js/util.js"}
+    /[if lte IE 8]
+  <script src="assets/js/ie/respond.min.js"></script>
+    %script{:src => "assets/js/main.js"}

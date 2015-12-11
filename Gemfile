@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
+gem 'twitter'
 gem 'jruby-openssl', platforms: :jruby
 gem 'rake'
 gem 'yard'
 gem 'typhoeus'
+gem 'nokogiri'
 group :development do
   gem 'pry'
 end
@@ -16,5 +18,3 @@ group :test do
   gem 'webmock'
   gem 'yardstick'
 end
-
-gemspec

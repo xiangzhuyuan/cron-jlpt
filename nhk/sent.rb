@@ -102,14 +102,19 @@ def generate_html(store_place, news_list)
 end
 
 
-get_news_list
-generate_html(BASE_HOME, NEWS_LST)
-Publish_list.concat get_existed_file_list("png").sample(4) if Publish_list.empty?
+#get_news_list
+#generate_html(BASE_HOME, NEWS_LST)
+#Publish_list.concat get_existed_file_list("png").sample(4) if Publish_list.empty?
 # Publish_list.each do |news|
 #   sent_twi_with_image("#JLPT #NHK check this News:", "#{BASE_HOME}/#{news}.png")
 # end
 
-File.open("#{BASE_HOME}/sent_list.txt", 'w') do |f|
-  puts "write sent list start"
-  f.write(Publish_list.join(","))
+
+# File.open("sent_list.txt", 'w') do |f|
+#   puts "write sent list start"
+#   f.write(Publish_list.join(","))
+# end
+
+send_list = IO.read("#{BASE_HOME}/sent_list.txt").split(",").each do |news|
+  sent_twi_with_image("#JLPT #NHK check this News:", "#{BASE_HOME}/#{news}.png")
 end

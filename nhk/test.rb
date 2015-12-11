@@ -7,9 +7,9 @@ require 'pry'
 require 'twitter'
 
 
-BASE_HOME = "/Users/zhuyuan.xiang/workspace/cron-jlpt/nhk"
-NEWS_LST = []
-
+BASE_HOME    = "/Users/zhuyuan.xiang/workspace/cron-jlpt/nhk"
+NEWS_LST     = []
+Publish_list = []
 
 def twi_conn
   begin
@@ -27,7 +27,7 @@ end
 def sent_twi_with_image(content, image_path)
   begin
     puts "#{content}->#{image_path}"
-    # twi_conn.update_with_media(content, File.new(image_path))
+    twi_conn.update_with_media(content, File.new(image_path))
   rescue Twitter::Error::Forbidden => e
     puts e.message
   end
@@ -51,12 +51,12 @@ def get_news_list
       item.each do |key, news_list|
         news_list.each do |news|
           NEWS_LST.push({
-                           id:           news["news_id"],
-                           ony_title:    news["title"],
-                           title:        news["title_with_ruby"],
-                           publish_date: news["news_publication_time"],
-                           full_url:     news["news_web_url"]
-                         })
+                          id:           news["news_id"],
+                          ony_title:    news["title"],
+                          title:        news["title_with_ruby"],
+                          publish_date: news["news_publication_time"],
+                          full_url:     news["news_web_url"]
+                        })
         end
       end
     end
@@ -70,12 +70,11 @@ def get_existed_file_list(extension)
 end
 
 def generate_html(store_place, news_list)
-  sent_list    = []
   existed_list = get_existed_file_list("html")
   begin
     news_list.each { |news|
       if !existed_list.include? news[:id]
-        sent_list << news[:id]
+        Publish_list << news[:id]
         # read all, get each id
         web_url    = "#{news[:id]}/#{news[:id]}.html"
         response   = @connection.get(web_url)
@@ -97,24 +96,15 @@ def generate_html(store_place, news_list)
         end
       end
     }
-    puts "just pick up existed random"
-    sent_list << existed_list.sample(3)
   rescue => e
     puts e.message
   end
-  sent_list
 end
 
-
-def sent_twitter(send_list)
-  send_list.each do |xxx|
-    content = "Read this #{xxx}"
-    png     = "#{BASE_HOME}/#{xxx}.png"
-    sent_twi_with_image(content, png)
-    #sleep(3)
-  end
-end
 
 get_news_list
-sent_twitter(generate_html(BASE_HOME, NEWS_LST))
-
+generate_html(BASE_HOME, NEWS_LST)
+Publish_list.concat get_existed_file_list("png").sample(4) if Publish_list.empty?
+Publish_list.each do |news|
+  sent_twi_with_image("#JLPT #NHK check this News:", "#{BASE_HOME}/#{news}.png")
+end

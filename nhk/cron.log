@@ -1,0 +1,18 @@
+/home/matt/20151211/nhk/sent.rb:31:in `initialize': No such file or directory @ rb_sysopen - /home/matt/20151211/nhk/k10010339171000.png (Errno::ENOENT)
+	from /home/matt/20151211/nhk/sent.rb:31:in `new'
+	from /home/matt/20151211/nhk/sent.rb:31:in `sent_twi_with_image'
+	from /home/matt/20151211/nhk/sent.rb:121:in `block in <main>'
+	from /home/matt/20151211/nhk/sent.rb:120:in `each'
+	from /home/matt/20151211/nhk/sent.rb:120:in `<main>'
+/home/matt/20151211/nhk/sent.rb:31:in `initialize': No such file or directory @ rb_sysopen - /home/matt/20151211/nhk/k10010339171000.png (Errno::ENOENT)
+	from /home/matt/20151211/nhk/sent.rb:31:in `new'
+	from /home/matt/20151211/nhk/sent.rb:31:in `sent_twi_with_image'
+	from /home/matt/20151211/nhk/sent.rb:121:in `block in <main>'
+	from /home/matt/20151211/nhk/sent.rb:120:in `each'
+	from /home/matt/20151211/nhk/sent.rb:120:in `<main>'
+/home/matt/20151211/nhk/sent.rb:31:in `initialize': No such file or directory @ rb_sysopen - /home/matt/20151211/nhk/k10010340661000.png (Errno::ENOENT)
+	from /home/matt/20151211/nhk/sent.rb:31:in `new'
+	from /home/matt/20151211/nhk/sent.rb:31:in `sent_twi_with_image'
+	from /home/matt/20151211/nhk/sent.rb:121:in `block in <main>'
+	from /home/matt/20151211/nhk/sent.rb:120:in `each'
+	from /home/matt/20151211/nhk/sent.rb:120:in `<main>'

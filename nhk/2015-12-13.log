@@ -1,0 +1,44 @@
+start cron job at 2015-12-13
+no new png need create
+I, [2015-12-13T10:00:04.103252 #10055]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-13T10:00:04.103385 #10055] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-13T10:00:04.268182 #10055]  INFO -- Status: 200
+D, [2015-12-13T10:00:04.268331 #10055] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 11 Dec 2015 06:24:05 GMT"
+etag: "\"12a4b0d-1b3d2-526995ebf4c8e\""
+accept-ranges: "bytes"
+content-length: "111570"
+content-type: "application/json"
+date: "Sun, 13 Dec 2015 01:00:04 GMT"
+connection: "close"
+write sent list start
+#NHK check this News:->/home/matt/20151211/nhk/k10010327491000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010313291000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010326301000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010318161000.png
+end cron job at 2015-12-13
+start cron job at 2015-12-13
+no new png need create
+I, [2015-12-13T18:00:04.409920 #16465]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-13T18:00:04.410042 #16465] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-13T18:00:04.444564 #16465]  INFO -- Status: 200
+D, [2015-12-13T18:00:04.444656 #16465] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 11 Dec 2015 06:24:05 GMT"
+etag: "\"12a4b0d-1b3d2-526995ebf4c8e\""
+accept-ranges: "bytes"
+content-length: "111570"
+content-type: "application/json"
+date: "Sun, 13 Dec 2015 09:00:04 GMT"
+connection: "close"
+write sent list start
+#NHK check this News:->/home/matt/20151211/nhk/k10010332151000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010302831000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010332471000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010302431000.png
+end cron job at 2015-12-13

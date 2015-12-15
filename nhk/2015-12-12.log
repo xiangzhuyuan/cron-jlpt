@@ -1,0 +1,110 @@
+start cron job at 2015-12-12
+no new png need create
+I, [2015-12-12T10:00:04.584980 #24119]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-12T10:00:04.585085 #24119] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-12T10:00:04.635110 #24119]  INFO -- Status: 200
+D, [2015-12-12T10:00:04.635217 #24119] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 11 Dec 2015 06:24:05 GMT"
+etag: "\"12a4b0d-1b3d2-526995ebf4c8e\""
+accept-ranges: "bytes"
+content-length: "111570"
+content-type: "application/json"
+date: "Sat, 12 Dec 2015 01:00:04 GMT"
+connection: "close"
+write sent list start
+#NHK check this News:->/home/matt/20151211/nhk/k10010327491000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010307311000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010332491000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010302431000.png
+end cron job at 2015-12-12
+start cron job at 2015-12-12
+no new png need create
+I, [2015-12-12T12:00:03.971477 #24457]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-12T12:00:03.971583 #24457] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-12T12:00:04.031016 #24457]  INFO -- Status: 200
+D, [2015-12-12T12:00:04.031105 #24457] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 11 Dec 2015 06:24:05 GMT"
+etag: "\"12a4b0d-1b3d2-526995ebf4c8e\""
+accept-ranges: "bytes"
+content-length: "111570"
+content-type: "application/json"
+date: "Sat, 12 Dec 2015 03:00:04 GMT"
+connection: "close"
+write sent list start
+#NHK check this News:->/home/matt/20151211/nhk/k10010311061000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010335611000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010317181000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010317761000.png
+end cron job at 2015-12-12
+start cron job at 2015-12-12
+no new png need create
+I, [2015-12-12T15:00:04.845483 #8964]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-12T15:00:04.846602 #8964] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-12T15:00:05.015055 #8964]  INFO -- Status: 200
+D, [2015-12-12T15:00:05.015154 #8964] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 11 Dec 2015 06:24:05 GMT"
+etag: "\"12a4b0d-1b3d2-526995ebf4c8e\""
+accept-ranges: "bytes"
+content-length: "111570"
+content-type: "application/json"
+date: "Sat, 12 Dec 2015 06:00:05 GMT"
+connection: "close"
+write sent list start
+#NHK check this News:->/home/matt/20151211/nhk/k10010331271000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010326831000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010326291000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010324471000.png
+end cron job at 2015-12-12
+start cron job at 2015-12-12
+no new png need create
+I, [2015-12-12T18:00:04.896863 #26799]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-12T18:00:04.896972 #26799] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-12T18:00:05.137297 #26799]  INFO -- Status: 200
+D, [2015-12-12T18:00:05.137409 #26799] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 11 Dec 2015 06:24:05 GMT"
+etag: "\"12a4b0d-1b3d2-526995ebf4c8e\""
+accept-ranges: "bytes"
+content-length: "111570"
+content-type: "application/json"
+date: "Sat, 12 Dec 2015 09:00:05 GMT"
+connection: "close"
+write sent list start
+#NHK check this News:->/home/matt/20151211/nhk/k10010327491000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010322671000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010318851000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010309261000.png
+end cron job at 2015-12-12
+start cron job at 2015-12-12
+no new png need create
+I, [2015-12-12T22:00:04.109283 #27286]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-12T22:00:04.109383 #27286] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-12T22:00:04.177651 #27286]  INFO -- Status: 200
+D, [2015-12-12T22:00:04.177738 #27286] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 11 Dec 2015 06:24:05 GMT"
+etag: "\"12a4b0d-1b3d2-526995ebf4c8e\""
+accept-ranges: "bytes"
+content-length: "111570"
+content-type: "application/json"
+date: "Sat, 12 Dec 2015 13:00:04 GMT"
+connection: "close"
+write sent list start
+#NHK check this News:->/home/matt/20151211/nhk/k10010311711000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010301271000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010335581000.png
+#NHK check this News:->/home/matt/20151211/nhk/k10010316791000.png
+end cron job at 2015-12-12

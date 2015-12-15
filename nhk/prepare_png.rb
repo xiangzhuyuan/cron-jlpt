@@ -29,7 +29,8 @@ end
 def use_phantomjs(url_list)
   begin
     puts "invoke phantomjs to generate png "
-    exec("/Users/zhuyuan.xiang/node_modules/phantomjs/lib/phantom/bin/phantomjs render_multi_url.js #{url_list}")
+    exec("/home/matt/20151211/nhk/node_modules/phantomjs/lib/phantom/bin/phantomjs render_multi_url.js #{url_list}")
+    #exec("/Users/zhuyuan.xiang/node_modules/phantomjs/lib/phantom/bin/phantomjs render_multi_url.js #{url_list}")
   rescue => e
     puts e.message
   end

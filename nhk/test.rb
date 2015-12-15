@@ -7,7 +7,8 @@ require 'pry'
 require 'twitter'
 
 
-BASE_HOME    = "/Users/zhuyuan.xiang/workspace/cron-jlpt/nhk"
+#BASE_HOME    = "/Users/zhuyuan.xiang/workspace/cron-jlpt/nhk"
+BASE_HOME    = "/home/matt/20151211/nhk"
 NEWS_LST     = []
 Publish_list = []
 
@@ -85,7 +86,7 @@ def generate_html(store_place, news_list)
         only_title = news[:only_title]
 
         puts "start read erb, and create html file ...."
-        renderer = ERB.new(File.read("index.html.erb"))
+        renderer = ERB.new(File.read(File.join(File.expand_path(File.dirname(__FILE__)), "index.html.erb")))
         result   = renderer.result(binding)
 
         html_file = "#{news[:id]}.html"
@@ -105,6 +106,16 @@ end
 get_news_list
 generate_html(BASE_HOME, NEWS_LST)
 Publish_list.concat get_existed_file_list("png").sample(4) if Publish_list.empty?
-Publish_list.each do |news|
-  sent_twi_with_image("#JLPT #NHK check this News:", "#{BASE_HOME}/#{news}.png")
+#Publish_list.each do |news|
+#  sent_twi_with_image("#JLPT #NHK check this News:", "#{BASE_HOME}/#{news}.png")
+#end
+
+
+
+File.open("#{BASE_HOME}/sent_list.txt", 'w') do |f|
+  puts "write sent list start"
+  f.write(Publish_list.join(","))
 end
+
+
+

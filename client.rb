@@ -55,6 +55,7 @@ def sent_twi(twi_list)
 
   begin
     twi_list.each { |item|
+      puts item
       twi_conn.update(item)
       sleep(5)
     }

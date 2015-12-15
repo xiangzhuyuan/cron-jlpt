@@ -1,0 +1,5 @@
+0 10 * * * sh /home/matt/20151211/nhk/sent.sh  >>/home/matt/20151211/nhk/cron.log 2>&1
+0 12 * * * sh /home/matt/20151211/nhk/sent.sh  >>/home/matt/20151211/nhk/cron.log 2>&1
+0 15 * * * sh /home/matt/20151211/nhk/sent.sh  >>/home/matt/20151211/nhk/cron.log 2>&1
+0 18 * * * sh /home/matt/20151211/nhk/sent.sh  >>/home/matt/20151211/nhk/cron.log 2>&1
+0 22 * * * sh /home/matt/20151211/nhk/sent.sh  >>/home/matt/20151211/nhk/cron.log 2>&1

@@ -15,4 +15,3 @@ ruby /home/matt/20151211/nhk/test.rb >> $LOG_FILE
 ruby /home/matt/20151211/nhk/sent.rb >> $LOG_FILE
 
 echo "end cron job at ${DATE}" >> $LOG_FILE
-

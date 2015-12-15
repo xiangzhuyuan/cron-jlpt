@@ -7,8 +7,12 @@ require 'pry'
 require 'twitter'
 
 
+<<<<<<< HEAD
 #BASE_HOME    = "/Users/zhuyuan.xiang/workspace/cron-jlpt/nhk"
 BASE_HOME    = "/home/matt/20151211/nhk"
+=======
+BASE_HOME    = "/Users/zhuyuan.xiang/workspace/cron-jlpt/nhk"
+>>>>>>> 6d3fa27278c3478538e3dcec4465046847e55353
 NEWS_LST     = []
 Publish_list = []
 
@@ -106,20 +110,16 @@ end
 #get_news_list
 #generate_html(BASE_HOME, NEWS_LST)
 #Publish_list.concat get_existed_file_list("png").sample(4) if Publish_list.empty?
-#Publish_list.each do |news|
-#  sent_twi_with_image("#JLPT #NHK check this News:", "#{BASE_HOME}/#{news}.png")
-#end
+# Publish_list.each do |news|
+#   sent_twi_with_image("#JLPT #NHK check this News:", "#{BASE_HOME}/#{news}.png")
+# end
 
 
-
-#File.open("#{BASE_HOME}/sent_list.txt", 'w') do |f|
-#  puts "write sent list start"
-#  f.write(Publish_list.join(","))
-#end
+# File.open("sent_list.txt", 'w') do |f|
+#   puts "write sent list start"
+#   f.write(Publish_list.join(","))
+# end
 
 send_list = IO.read("#{BASE_HOME}/sent_list.txt").split(",").each do |news|
-  sent_twi_with_image("#NHK check this News:", "#{BASE_HOME}/#{news}.png")
+  sent_twi_with_image("#JLPT #NHK check this News:", "#{BASE_HOME}/#{news}.png")
 end
-
-
-

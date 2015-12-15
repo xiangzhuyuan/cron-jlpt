@@ -7,12 +7,7 @@ require 'pry'
 require 'twitter'
 
 
-<<<<<<< HEAD
-#BASE_HOME    = "/Users/zhuyuan.xiang/workspace/cron-jlpt/nhk"
 BASE_HOME    = "/home/matt/20151211/nhk"
-=======
-BASE_HOME    = "/Users/zhuyuan.xiang/workspace/cron-jlpt/nhk"
->>>>>>> 6d3fa27278c3478538e3dcec4465046847e55353
 NEWS_LST     = []
 Publish_list = []
 

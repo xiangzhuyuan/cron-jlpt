@@ -180,3 +180,44 @@ write k10010335961000.html start
 write sent list start
 #NHK check this News:->/home/matt/20151211/nhk/k10010340661000.png
 end cron job at 2015-12-15
+start cron job at 2015-12-15
+start cron job at 2015-12-15
+no new png need create
+I, [2015-12-15T18:05:15.803762 #11653]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-15T18:05:15.803931 #11653] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-15T18:05:15.829914 #11653]  INFO -- Status: 200
+D, [2015-12-15T18:05:15.830002 #11653] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 15 Dec 2015 07:06:14 GMT"
+etag: "\"12a2d99-19bf8-526ea6cda45a3\""
+accept-ranges: "bytes"
+content-length: "105464"
+content-type: "application/json"
+date: "Tue, 15 Dec 2015 09:05:15 GMT"
+connection: "close"
+write sent list start
+end cron job at 2015-12-15
+start cron job at 2015-12-15
+no new png need create
+I, [2015-12-15T18:07:09.540799 #12744]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-15T18:07:09.541657 #12744] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-15T18:07:09.573075 #12744]  INFO -- Status: 200
+D, [2015-12-15T18:07:09.573190 #12744] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 15 Dec 2015 07:06:14 GMT"
+etag: "\"12a2d99-19bf8-526ea6cda45a3\""
+accept-ranges: "bytes"
+content-length: "105464"
+content-type: "application/json"
+date: "Tue, 15 Dec 2015 09:07:09 GMT"
+connection: "close"
+write sent list start
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010332271000.png
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010310441000.png
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010324231000.png
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010326831000.png
+end cron job at 2015-12-15

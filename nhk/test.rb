@@ -7,32 +7,9 @@ require 'pry'
 require 'twitter'
 
 
-#BASE_HOME    = "/Users/zhuyuan.xiang/workspace/cron-jlpt/nhk"
-BASE_HOME    = "/home/matt/20151211/nhk"
+BASE_HOME    = __dir__
 NEWS_LST     = []
 Publish_list = []
-
-def twi_conn
-  begin
-    client = Twitter::REST::Client.new do |config|
-      config.consumer_key        = "A92HuuC2zgIBDbwWteMlQX3hK"
-      config.consumer_secret     = "O6YLt1u3mIQOaBGw3LY91pQbpfdzpz5OdpnGyjzxkFhTmrIR26"
-      config.access_token        = "143062296-A9bdsRSqe9xb6iPcuTY6xZLFhTCfozQ5zIFc6rJZ"
-      config.access_token_secret = "oFAJxfhXG73Bqi8icTa4glKkGd1SErLjcMgunNV0m7i4Y"
-    end
-  rescue => e
-    puts "Get twi conection failed with #{e.message}"
-  end
-end
-
-def sent_twi_with_image(content, image_path)
-  begin
-    puts "#{content}->#{image_path}"
-    twi_conn.update_with_media(content, File.new(image_path))
-  rescue Twitter::Error::Forbidden => e
-    puts e.message
-  end
-end
 
 def get_news_list
   @connection                      = Faraday.new('http://www3.nhk.or.jp/news/easy/') do |builder|
@@ -52,11 +29,11 @@ def get_news_list
       item.each do |key, news_list|
         news_list.each do |news|
           NEWS_LST.push({
-                          id:           news["news_id"],
-                          ony_title:    news["title"],
-                          title:        news["title_with_ruby"],
-                          publish_date: news["news_publication_time"],
-                          full_url:     news["news_web_url"]
+                            id:           news["news_id"],
+                            ony_title:    news["title"],
+                            title:        news["title_with_ruby"],
+                            publish_date: news["news_publication_time"],
+                            full_url:     news["news_web_url"]
                         })
         end
       end
@@ -67,7 +44,8 @@ def get_news_list
 end
 
 def get_existed_file_list(extension)
-  Dir["#{BASE_HOME}/**/*.#{extension}"].map { |item| File.basename(item, ".#{extension}") }
+  subdir = ext = extension
+  Dir["#{BASE_HOME}/#{subdir}/*.#{ext}"].map { |item| File.basename(item, ".#{ext}") }
 end
 
 def generate_html(store_place, news_list)
@@ -86,10 +64,10 @@ def generate_html(store_place, news_list)
         only_title = news[:only_title]
 
         puts "start read erb, and create html file ...."
-        renderer = ERB.new(File.read(File.join(File.expand_path(File.dirname(__FILE__)), "index.html.erb")))
+        renderer = ERB.new(File.read(File.join(BASE_HOME, "index.html.erb")))
         result   = renderer.result(binding)
 
-        html_file = "#{news[:id]}.html"
+        html_file = File.join(store_place, "/html/", "#{news[:id]}.html")
 
         File.open(html_file, 'w') do |f|
           puts "write #{html_file} start"
@@ -107,7 +85,7 @@ get_news_list
 generate_html(BASE_HOME, NEWS_LST)
 Publish_list.concat get_existed_file_list("png").sample(4) if Publish_list.empty?
 
-File.open("#{BASE_HOME}/sent_list.txt", 'w') do |f|
+File.open(File.join(BASE_HOME, "sent_list.txt"), 'w') do |f|
   puts "write sent list start"
   f.write(Publish_list.join(","))
 end

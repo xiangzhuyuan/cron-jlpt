@@ -1,3 +1,5 @@
 # Use the  Twitter Ruby Gem
 
-do ifttt
+### get  sth from internet and
+
+### do ifttt

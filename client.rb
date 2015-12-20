@@ -4,14 +4,15 @@ require 'yaml'
 require 'pry'
 require 'twitter'
 
+BASE_HOME = __dir__
 
 def twi_conn
   begin
     client = Twitter::REST::Client.new do |config|
-      config.consumer_key        = "A92HuuC2zgIBDbwWteMlQX3hK"
-      config.consumer_secret     = "O6YLt1u3mIQOaBGw3LY91pQbpfdzpz5OdpnGyjzxkFhTmrIR26"
-      config.access_token        = "143062296-A9bdsRSqe9xb6iPcuTY6xZLFhTCfozQ5zIFc6rJZ"
-      config.access_token_secret = "oFAJxfhXG73Bqi8icTa4glKkGd1SErLjcMgunNV0m7i4Y"
+      config.consumer_key        = ENV['CONSUMER_KEY']
+      config.consumer_secret     = ENV['CONSUMER_SECRET']
+      config.access_token        = ENV['ACCESS_TOKEN']
+      config.access_token_secret = ENV['ACCESS_TOKEN_SECRET']
     end
   rescue => e
     puts "Get twi conection failed with #{e.message}"
@@ -70,5 +71,4 @@ def sent_twi_test(twi_list)
   end
 end
 
-#sent_twi_test(get_twi('/home/matt/cron-jlpt/grammar_list_with_id_short_url.yml'))
-sent_twi(get_twi('/home/matt/cron-jlpt/grammar_list_with_id_short_url.yml'))
+sent_twi(get_twi(File.join(BASE_HOME, 'grammar_list_with_id_short_url.yml')))

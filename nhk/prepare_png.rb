@@ -10,7 +10,8 @@ require 'twitter'
 BASE_HOME = __dir__
 
 def get_existed_file_list(extension)
-  file_list = Dir["#{BASE_HOME}/**/*.#{extension}"].map { |item| File.basename(item, ".#{extension}") }
+  subdir = ext = extension
+  file_list = Dir["#{BASE_HOME}/#{subdir}/*.#{ext}"].map { |item| File.basename(item, ".#{ext}") }
 end
 
 def clearup_all_image
@@ -30,7 +31,6 @@ def use_phantomjs(url_list)
   begin
     puts "invoke phantomjs to generate png "
     exec("#{BASE_HOME}/node_modules/phantomjs/lib/phantom/bin/phantomjs #{BASE_HOME}/render_multi_url.js #{url_list}")
-    #exec("/Users/zhuyuan.xiang/node_modules/phantomjs/lib/phantom/bin/phantomjs render_multi_url.js #{url_list}")
   rescue => e
     puts e.message
   end

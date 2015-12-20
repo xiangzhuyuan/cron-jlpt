@@ -116,5 +116,5 @@ end
 # end
 
 send_list = IO.read("#{BASE_HOME}/sent_list.txt").split(",").each do |news|
-  sent_twi_with_image("#JLPT #NHK check this News:", "#{BASE_HOME}/#{news}.png")
+  sent_twi_with_image("#NHK check this News:", "#{BASE_HOME}/#{news}.png")
 end

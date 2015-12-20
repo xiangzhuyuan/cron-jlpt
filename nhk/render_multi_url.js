@@ -2,7 +2,7 @@
 
 var RenderUrlsToFile, arrayOfUrls;
 
-
+var fs = require('fs')
 var system = require('system');
 var args = system.args;
 
@@ -18,8 +18,8 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
     webpage = require("webpage");
     page = null;
 
-    var Base_home = "/Users/zhuyuan.xiang/workspace/cron-jlpt/nhk/";
-
+    var Base_home = fs.workingDirectory
+    
     getFilename = function(url) {
         return url + ".png";
     };
@@ -33,7 +33,7 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
         task_size = urls.length;
         if (task_size > 0) {
             news_id = urls.shift();
-            url = Base_home + news_id + ".html";
+            url = Base_home + "/" + news_id + ".html";
             console.log("doing ... " + urlIndex);
             console.log("current left:  " + task_size);
             urlIndex++;
@@ -45,7 +45,7 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
             page.settings.userAgent = "Phantom.js bot";
             return page.open("file://" + url, function(status) {
                 var file;
-                file = getFilename(Base_home + news_id);
+                file = getFilename(Base_home + "/" + news_id);
                 if (status === "success") {
                     return window.setTimeout((function() {
                         page.render(file);

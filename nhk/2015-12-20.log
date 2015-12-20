@@ -1,0 +1,132 @@
+start cron job at 2015-12-20
+I, [2015-12-20T09:39:44.537772 #21074]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-20T09:39:44.538941 #21074] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-20T09:39:44.574805 #21074]  INFO -- Status: 200
+D, [2015-12-20T09:39:44.574934 #21074] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 18 Dec 2015 06:49:59 GMT"
+etag: "\"12a9281-1a632-527268c431528\""
+accept-ranges: "bytes"
+content-length: "108082"
+content-type: "application/json"
+date: "Sun, 20 Dec 2015 00:39:44 GMT"
+connection: "close"
+I, [2015-12-20T09:39:44.595488 #21074]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010343861000/k10010343861000.html
+D, [2015-12-20T09:39:44.596559 #21074] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-20T09:39:44.638741 #21074]  INFO -- Status: 200
+D, [2015-12-20T09:39:44.638838 #21074] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 18 Dec 2015 06:50:13 GMT"
+etag: "\"44cd97-35f8-527268d18b9fb\""
+accept-ranges: "bytes"
+content-length: "13816"
+content-type: "text/html"
+date: "Sun, 20 Dec 2015 00:39:44 GMT"
+connection: "close"
+start read erb, and create html file ....
+write k10010343861000.html start
+I, [2015-12-20T09:39:44.657697 #21074]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010344231000/k10010344231000.html
+D, [2015-12-20T09:39:44.657771 #21074] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-20T09:39:44.745128 #21074]  INFO -- Status: 200
+D, [2015-12-20T09:39:44.745224 #21074] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 18 Dec 2015 06:50:14 GMT"
+etag: "\"12a6c8b-36cd-527268d27f7bc\""
+accept-ranges: "bytes"
+content-length: "14029"
+content-type: "text/html"
+date: "Sun, 20 Dec 2015 00:39:44 GMT"
+connection: "close"
+start read erb, and create html file ....
+write k10010344231000.html start
+I, [2015-12-20T09:39:44.754174 #21074]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010342711000/k10010342711000.html
+D, [2015-12-20T09:39:44.754280 #21074] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-20T09:39:44.809964 #21074]  INFO -- Status: 200
+D, [2015-12-20T09:39:44.810088 #21074] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 18 Dec 2015 06:50:13 GMT"
+etag: "\"44cdda-3b10-527268d18b74f\""
+accept-ranges: "bytes"
+content-length: "15120"
+content-type: "text/html"
+date: "Sun, 20 Dec 2015 00:39:44 GMT"
+connection: "close"
+start read erb, and create html file ....
+write k10010342711000.html start
+I, [2015-12-20T09:39:44.831560 #21074]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010343651000/k10010343651000.html
+D, [2015-12-20T09:39:44.831663 #21074] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-20T09:39:44.880713 #21074]  INFO -- Status: 200
+D, [2015-12-20T09:39:44.880846 #21074] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 18 Dec 2015 06:50:13 GMT"
+etag: "\"44d058-3702-527268d18b8ea\""
+accept-ranges: "bytes"
+content-length: "14082"
+content-type: "text/html"
+date: "Sun, 20 Dec 2015 00:39:44 GMT"
+connection: "close"
+start read erb, and create html file ....
+write k10010343651000.html start
+write sent list start
+0: /home/matt/20151211/nhk/render_multi_url.js
+1: k10010342711000,k10010344231000,test,k10010343651000,k10010343861000
+Allright, let us use phantomjs to capture page....
+we get these 5 url to work: k10010342711000,k10010344231000,test,k10010343651000,k10010343861000
+doing ... 0
+current left:  5
+Rendered '/home/matt/20151211/nhk/k10010342711000.html' at '/home/matt/20151211/nhk/k10010342711000.png'
+doing ... 1
+current left:  4
+Rendered '/home/matt/20151211/nhk/k10010344231000.html' at '/home/matt/20151211/nhk/k10010344231000.png'
+doing ... 2
+current left:  3
+Unable to render '/home/matt/20151211/nhk/test.html'
+doing ... 3
+current left:  2
+Rendered '/home/matt/20151211/nhk/k10010343651000.html' at '/home/matt/20151211/nhk/k10010343651000.png'
+doing ... 4
+current left:  1
+Rendered '/home/matt/20151211/nhk/k10010343861000.html' at '/home/matt/20151211/nhk/k10010343861000.png'
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010343861000.png
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010344231000.png
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010342711000.png
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010343651000.png
+end cron job at 2015-12-20
+start cron job at 2015-12-20
+I, [2015-12-20T10:00:03.134360 #26066]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-20T10:00:03.134506 #26066] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-20T10:00:03.290302 #26066]  INFO -- Status: 200
+D, [2015-12-20T10:00:03.290397 #26066] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 18 Dec 2015 06:49:59 GMT"
+etag: "\"12a9281-1a632-527268c431528\""
+accept-ranges: "bytes"
+content-length: "108082"
+content-type: "application/json"
+date: "Sun, 20 Dec 2015 01:00:03 GMT"
+connection: "close"
+write sent list start
+0: /home/matt/20151211/nhk/render_multi_url.js
+1: test
+Allright, let us use phantomjs to capture page....
+we get these 1 url to work: test
+doing ... 0
+current left:  1
+Unable to render '/home/matt/test.html'
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010313291000.png
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010336981000.png
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010300691000.png
+#JLPT #NHK check this News:->/home/matt/20151211/nhk/k10010326831000.png
+end cron job at 2015-12-20

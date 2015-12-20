@@ -7,7 +7,7 @@ require 'pry'
 require 'twitter'
 
 
-BASE_HOME = "/Users/zhuyuan.xiang/workspace/cron-jlpt/nhk"
+BASE_HOME = __dir__
 
 def get_existed_file_list(extension)
   file_list = Dir["#{BASE_HOME}/**/*.#{extension}"].map { |item| File.basename(item, ".#{extension}") }
@@ -29,7 +29,7 @@ end
 def use_phantomjs(url_list)
   begin
     puts "invoke phantomjs to generate png "
-    exec("/home/matt/20151211/nhk/node_modules/phantomjs/lib/phantom/bin/phantomjs render_multi_url.js #{url_list}")
+    exec("#{BASE_HOME}/node_modules/phantomjs/lib/phantom/bin/phantomjs #{BASE_HOME}/render_multi_url.js #{url_list}")
     #exec("/Users/zhuyuan.xiang/node_modules/phantomjs/lib/phantom/bin/phantomjs render_multi_url.js #{url_list}")
   rescue => e
     puts e.message

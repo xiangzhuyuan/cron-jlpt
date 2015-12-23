@@ -18,3 +18,5 @@ group :test do
   gem 'webmock'
   gem 'yardstick'
 end
+
+gem "mini_magick"

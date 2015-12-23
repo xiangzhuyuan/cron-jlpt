@@ -1,0 +1,10 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+# gem "rails"
+gem 'pdf-reader'
+gem 'faraday'
+gem 'typhoeus'
+gem 'nokogiri'
+gem 'weibo_2'
+gem 'rmagick'

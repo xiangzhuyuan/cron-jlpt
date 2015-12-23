@@ -10,9 +10,9 @@ export ACCESS_TOKEN_SECRET="oFAJxfhXG73Bqi8icTa4glKkGd1SErLjcMgunNV0m7i4Y"
 
 
 DATE=`date +%Y-%m-%d`
-LOG_FILE="/home/matt/20151211/nhk/${DATE}.log"
+LOG_FILE="$(dirname $0)/${DATE}.log"
 echo "start cron job at ${DATE}" >> $LOG_FILE
-ruby /home/matt/20151211/nhk/test.rb >> $LOG_FILE
-ruby /home/matt/20151211/nhk/prepare_png.rb >> $LOG_FILE
-ruby /home/matt/20151211/nhk/sent.rb >> $LOG_FILE
+ruby "$(dirname $0)/test.rb" >> $LOG_FILE
+ruby "$(dirname $0)/prepare_png.rb" >> $LOG_FILE
+ruby "$(dirname $0)/sent.rb" >> $LOG_FILE
 echo "end cron job at ${DATE}" >> $LOG_FILE

@@ -10,7 +10,7 @@ export ACCESS_TOKEN_SECRET="oFAJxfhXG73Bqi8icTa4glKkGd1SErLjcMgunNV0m7i4Y"
 
 
 DATE=`date +%Y-%m-%d`
-LOG_FILE="$(pwd)/log/${DATE}.log"
+LOG_FILE="$(dirname $0)/log/${DATE}.log"
 echo $LOG_FILE
 
 #if [ ! -d /home/matt/cron-jlpt/log/ ]; then
@@ -19,5 +19,6 @@ echo $LOG_FILE
 #fi
 #
 echo "start cron job at ${DATE}" >> $LOG_FILE
-ruby `pwd`/sent.rb >> $LOG_FILE
+RUBY_FILE="$(dirname $0)/sent.rb"
+ruby $RUBY_FILE >> $LOG_FILE
 echo "end cron job at ${DATE}" >> $LOG_FILE

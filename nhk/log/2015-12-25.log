@@ -1,0 +1,135 @@
+start cron job at 2015-12-25
+I, [2015-12-25T10:00:03.808314 #20732]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-25T10:00:03.808434 #20732] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-25T10:00:03.858501 #20732]  INFO -- Status: 200
+D, [2015-12-25T10:00:03.858590 #20732] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Thu, 24 Dec 2015 06:59:25 GMT"
+etag: "\"ff8805-1957c-5279f610bcea9\""
+accept-ranges: "bytes"
+content-length: "103804"
+content-type: "application/json"
+date: "Fri, 25 Dec 2015 01:00:03 GMT"
+connection: "close"
+write sent list start
+0: /home/matt/20151223/nhk/render_multi_url.js
+1: k10010348521000,k10010347961000,k10010347461000,k10010344151000,k10010350791000,k10010344561000,k10010349161000,k10010347151000,k10010350921000,k10010348991000,k10010349221000,k10010347301000
+Allright, let us use phantomjs to capture page....
+we get these 12 url to work: k10010348521000,k10010347961000,k10010347461000,k10010344151000,k10010350791000,k10010344561000,k10010349161000,k10010347151000,k10010350921000,k10010348991000,k10010349221000,k10010347301000
+doing ... 0
+current left:  12
+Unable to render '/home/matt/k10010348521000.html'
+doing ... 1
+current left:  11
+Unable to render '/home/matt/k10010347961000.html'
+doing ... 2
+current left:  10
+Unable to render '/home/matt/k10010347461000.html'
+doing ... 3
+current left:  9
+Unable to render '/home/matt/k10010344151000.html'
+doing ... 4
+current left:  8
+Unable to render '/home/matt/k10010350791000.html'
+doing ... 5
+current left:  7
+Unable to render '/home/matt/k10010344561000.html'
+doing ... 6
+current left:  6
+Unable to render '/home/matt/k10010349161000.html'
+doing ... 7
+current left:  5
+Unable to render '/home/matt/k10010347151000.html'
+doing ... 8
+current left:  4
+Unable to render '/home/matt/k10010350921000.html'
+doing ... 9
+current left:  3
+Unable to render '/home/matt/k10010348991000.html'
+doing ... 10
+current left:  2
+Unable to render '/home/matt/k10010349221000.html'
+doing ... 11
+current left:  1
+Unable to render '/home/matt/k10010347301000.html'
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010335581000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010303181000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010326871000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010334211000.png
+end cron job at 2015-12-25
+start cron job at 2015-12-25
+I, [2015-12-25T18:00:03.673586 #4936]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-25T18:00:03.674431 #4936] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-25T18:00:03.709597 #4936]  INFO -- Status: 200
+D, [2015-12-25T18:00:03.709685 #4936] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 25 Dec 2015 06:32:07 GMT"
+etag: "\"129da25-197f3-527b31d4147dc\""
+accept-ranges: "bytes"
+content-length: "104435"
+content-type: "application/json"
+date: "Fri, 25 Dec 2015 09:00:03 GMT"
+connection: "close"
+I, [2015-12-25T18:00:03.724357 #4936]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010352321000/k10010352321000.html
+D, [2015-12-25T18:00:03.724443 #4936] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-25T18:00:03.762582 #4936]  INFO -- Status: 200
+D, [2015-12-25T18:00:03.762698 #4936] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 25 Dec 2015 06:32:19 GMT"
+etag: "\"1014bda-3b36-527b31df867f6\""
+accept-ranges: "bytes"
+content-length: "15158"
+content-type: "text/html"
+date: "Fri, 25 Dec 2015 09:00:03 GMT"
+connection: "close"
+start read erb, and create html file ....
+incompatible character encodings: ASCII-8BIT and UTF-8
+write sent list start
+0: /home/matt/20151223/nhk/render_multi_url.js
+1: k10010348521000,k10010347961000,k10010347461000,k10010344151000,k10010350791000,k10010344561000,k10010349161000,k10010347151000,k10010350921000,k10010348991000,k10010349221000,k10010347301000
+Allright, let us use phantomjs to capture page....
+we get these 12 url to work: k10010348521000,k10010347961000,k10010347461000,k10010344151000,k10010350791000,k10010344561000,k10010349161000,k10010347151000,k10010350921000,k10010348991000,k10010349221000,k10010347301000
+doing ... 0
+current left:  12
+Unable to render '/home/matt/k10010348521000.html'
+doing ... 1
+current left:  11
+Unable to render '/home/matt/k10010347961000.html'
+doing ... 2
+current left:  10
+Unable to render '/home/matt/k10010347461000.html'
+doing ... 3
+current left:  9
+Unable to render '/home/matt/k10010344151000.html'
+doing ... 4
+current left:  8
+Unable to render '/home/matt/k10010350791000.html'
+doing ... 5
+current left:  7
+Unable to render '/home/matt/k10010344561000.html'
+doing ... 6
+current left:  6
+Unable to render '/home/matt/k10010349161000.html'
+doing ... 7
+current left:  5
+Unable to render '/home/matt/k10010347151000.html'
+doing ... 8
+current left:  4
+Unable to render '/home/matt/k10010350921000.html'
+doing ... 9
+current left:  3
+Unable to render '/home/matt/k10010348991000.html'
+doing ... 10
+current left:  2
+Unable to render '/home/matt/k10010349221000.html'
+doing ... 11
+current left:  1
+Unable to render '/home/matt/k10010347301000.html'
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010352321000.png
+end cron job at 2015-12-25

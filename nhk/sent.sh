@@ -10,7 +10,7 @@ export ACCESS_TOKEN_SECRET="oFAJxfhXG73Bqi8icTa4glKkGd1SErLjcMgunNV0m7i4Y"
 
 
 DATE=`date +%Y-%m-%d`
-LOG_FILE="$(dirname $0)/${DATE}.log"
+LOG_FILE="$(dirname $0)/log/${DATE}.log"
 echo "start cron job at ${DATE}" >> $LOG_FILE
 ruby "$(dirname $0)/test.rb" >> $LOG_FILE
 ruby "$(dirname $0)/prepare_png.rb" >> $LOG_FILE

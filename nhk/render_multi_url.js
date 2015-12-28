@@ -19,7 +19,7 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
     page = null;
 
     var Base_home = fs.workingDirectory
-    
+    console.log("This is our working home:" + Base_home)    
     getFilename = function(url) {
         return url + ".png";
     };
@@ -33,7 +33,8 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
         task_size = urls.length;
         if (task_size > 0) {
             news_id = urls.shift();
-            url = Base_home + "/" + news_id + ".html";
+            //fix this, get html from /html folder
+            url = Base_home + "/html/" + news_id + ".html";
             console.log("doing ... " + urlIndex);
             console.log("current left:  " + task_size);
             urlIndex++;
@@ -45,7 +46,7 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
             page.settings.userAgent = "Phantom.js bot";
             return page.open("file://" + url, function(status) {
                 var file;
-                file = getFilename(Base_home + "/" + news_id);
+                file = getFilename(Base_home + "/png/" + news_id);
                 if (status === "success") {
                     return window.setTimeout((function() {
                         page.render(file);

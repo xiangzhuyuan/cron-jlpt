@@ -34,4 +34,5 @@ end
 
 send_list = IO.read(File.join(BASE_HOME, "sent_list.txt")).split(",").each do |news|
   sent_twi_with_image("#NHK check this News:", File.join(BASE_HOME, "png", "#{news}.png"))
+  sleep(2)
 end

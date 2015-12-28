@@ -52,7 +52,7 @@ def generate_html(store_place, news_list)
   existed_list = get_existed_file_list("html")
   begin
     news_list.each { |news|
-      if !existed_list.include? news[:id]
+      unless existed_list.include? news[:id]
         Publish_list << news[:id]
         # read all, get each id
         web_url    = "#{news[:id]}/#{news[:id]}.html"

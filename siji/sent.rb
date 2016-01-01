@@ -36,6 +36,13 @@ def sent_twi_with_image(content, image_path)
   end
 end
 
-File.foreach(File.join(__dir__, 'list.txt')).to_a.sample(5).each { |item|
+lists = []
+f = File.open(File.join(__dir__, 'list.txt'), "r:UTF-8")
+f.each_line do |line|
+    lists << line
+end
+f.close
+
+lists.sample(5).each { |item|
   sent_twi("#四字熟語 " + item)
 }

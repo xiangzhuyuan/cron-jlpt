@@ -19,3 +19,4 @@ echo "start cron job at ${DATE}" >> $LOG_FILE
 echo "Step2 start"
 ruby "$(dirname $0)/prepare_png.rb" >> $LOG_FILE
 echo "end cron job at ${DATE}" >> $LOG_FILE
+echo "End step 2"

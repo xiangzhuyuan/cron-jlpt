@@ -24,3 +24,42 @@ start cron job at 2016-01-01
 #NHK check this News:->/home/matt/20151223/nhk/png/k10010312511000.png
 #NHK check this News:->/home/matt/20151223/nhk/png/k10010336131000.png
 end cron job at 2016-01-01
+start cron job at 2016-01-01
+I, [2016-01-01T17:45:03.140332 #30765]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2016-01-01T17:45:03.140452 #30765] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-01T17:45:03.181069 #30765]  INFO -- Status: 200
+D, [2016-01-01T17:45:03.181162 #30765] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 01 Jan 2016 00:59:31 GMT"
+etag: "\"c844b8-18662-5283b48ac82da\""
+accept-ranges: "bytes"
+content-length: "99938"
+content-type: "application/json"
+date: "Fri, 01 Jan 2016 08:45:03 GMT"
+connection: "close"
+I, [2016-01-01T17:45:03.188133 #30765]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010354001000/k10010354001000.html
+D, [2016-01-01T17:45:03.188237 #30765] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-01T17:45:03.230061 #30765]  INFO -- Status: 200
+D, [2016-01-01T17:45:03.230147 #30765] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Fri, 01 Jan 2016 00:59:42 GMT"
+etag: "\"1257d3f-3cf5-5283b49545ec0\""
+accept-ranges: "bytes"
+content-length: "15605"
+content-type: "text/html"
+date: "Fri, 01 Jan 2016 08:45:03 GMT"
+connection: "close"
+start read erb, and create html file ....
+incompatible character encodings: ASCII-8BIT and UTF-8
+write sent list start
+end cron job at 2016-01-01
+start cron job at 2016-01-01
+no new png need create
+end cron job at 2016-01-01
+start cron job at 2016-01-01
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010354001000.png
+end cron job at 2016-01-01

@@ -1,0 +1,380 @@
+start cron job at 2016-01-06
+I, [2016-01-06T09:45:02.958319 #21413]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2016-01-06T09:45:02.958428 #21413] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T09:45:08.078087 #21413]  INFO -- Status: 200
+D, [2016-01-06T09:45:08.078213 #21413] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:44:51 GMT"
+etag: "\"35bdb2-17531-528924033670e\""
+accept-ranges: "bytes"
+content-length: "95537"
+content-type: "application/json"
+date: "Wed, 06 Jan 2016 00:45:08 GMT"
+connection: "close"
+I, [2016-01-06T09:45:08.085131 #21413]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010361231000/k10010361231000.html
+D, [2016-01-06T09:45:08.085180 #21413] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T09:45:08.258880 #21413]  INFO -- Status: 200
+D, [2016-01-06T09:45:08.258966 #21413] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:05 GMT"
+etag: "\"12a226b-3a4e-52892410909a5\""
+accept-ranges: "bytes"
+content-length: "14926"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 00:45:08 GMT"
+connection: "close"
+start read erb, and create html file ....
+incompatible character encodings: ASCII-8BIT and UTF-8
+write sent list start
+end cron job at 2016-01-06
+start cron job at 2016-01-06
+no new png need create
+end cron job at 2016-01-06
+start cron job at 2016-01-06
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010361231000.png
+end cron job at 2016-01-06
+start cron job at 2016-01-06
+no new png need create
+end cron job at 2016-01-06
+start cron job at 2016-01-06
+I, [2016-01-06T11:21:31.678724 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2016-01-06T11:21:31.678830 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:31.701714 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:31.701813 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:44:51 GMT"
+etag: "\"35bdb2-17531-528924033670e\""
+accept-ranges: "bytes"
+content-length: "95537"
+content-type: "application/json"
+date: "Wed, 06 Jan 2016 02:21:31 GMT"
+connection: "close"
+I, [2016-01-06T11:21:31.708150 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010361231000/k10010361231000.html
+D, [2016-01-06T11:21:31.708198 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:31.836464 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:31.836548 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:05 GMT"
+etag: "\"12a226b-3a4e-52892410909a5\""
+accept-ranges: "bytes"
+content-length: "14926"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:31 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010361231000.html start
+I, [2016-01-06T11:21:31.852672 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010361061000/k10010361061000.html
+D, [2016-01-06T11:21:31.852721 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:31.859043 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:31.859103 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:05 GMT"
+etag: "\"12a65e1-3505-52892410906b4\""
+accept-ranges: "bytes"
+content-length: "13573"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:31 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010361061000.html start
+I, [2016-01-06T11:21:31.866481 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010361171000/k10010361171000.html
+D, [2016-01-06T11:21:31.866527 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:31.999422 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:31.999509 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:05 GMT"
+etag: "\"12a71a8-3549-52892410909a3\""
+accept-ranges: "bytes"
+content-length: "13641"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:31 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010361171000.html start
+I, [2016-01-06T11:21:32.007975 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010359471000/k10010359471000.html
+D, [2016-01-06T11:21:32.008026 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:32.153675 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:32.153758 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:03 GMT"
+etag: "\"aecca4-3b6c-5289240ea85dc\""
+accept-ranges: "bytes"
+content-length: "15212"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:32 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010359471000.html start
+I, [2016-01-06T11:21:32.167675 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010359851000/k10010359851000.html
+D, [2016-01-06T11:21:32.167732 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:33.134064 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:33.134169 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:04 GMT"
+etag: "\"631d0f-3eb5-5289240f9c65e\""
+accept-ranges: "bytes"
+content-length: "16053"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:33 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010359851000.html start
+I, [2016-01-06T11:21:33.148697 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010360121000/k10010360121000.html
+D, [2016-01-06T11:21:33.148764 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:33.279779 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:33.279866 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:05 GMT"
+etag: "\"12a0ede-3a0d-5289241090651\""
+accept-ranges: "bytes"
+content-length: "14861"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:33 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010360121000.html start
+I, [2016-01-06T11:21:33.293093 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010360161000/k10010360161000.html
+D, [2016-01-06T11:21:33.293158 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:33.418634 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:33.418760 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:05 GMT"
+etag: "\"12a485d-3905-52892410906a7\""
+accept-ranges: "bytes"
+content-length: "14597"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:33 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010360161000.html start
+I, [2016-01-06T11:21:33.439983 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010359761000/k10010359761000.html
+D, [2016-01-06T11:21:33.440051 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:33.581175 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:33.581262 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:04 GMT"
+etag: "\"12a443d-3558-5289240f9c64f\""
+accept-ranges: "bytes"
+content-length: "13656"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:33 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010359761000.html start
+I, [2016-01-06T11:21:33.592146 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010351761000/k10010351761000.html
+D, [2016-01-06T11:21:33.592211 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:33.741192 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:33.741275 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:00 GMT"
+etag: "\"77b283-3a50-5289240bcbfc9\""
+accept-ranges: "bytes"
+content-length: "14928"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:33 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010351761000.html start
+I, [2016-01-06T11:21:33.753541 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010351821000/k10010351821000.html
+D, [2016-01-06T11:21:33.753588 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:33.904065 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:33.904156 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:01 GMT"
+etag: "\"77a708-3a2e-5289240cbff2e\""
+accept-ranges: "bytes"
+content-length: "14894"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:33 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010351821000.html start
+I, [2016-01-06T11:21:33.912781 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010359561000/k10010359561000.html
+D, [2016-01-06T11:21:33.912851 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:34.057142 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:34.057228 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:03 GMT"
+etag: "\"ab9924-3c5a-5289240ea8607\""
+accept-ranges: "bytes"
+content-length: "15450"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:34 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010359561000.html start
+I, [2016-01-06T11:21:34.069178 #16456]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010359571000/k10010359571000.html
+D, [2016-01-06T11:21:34.069222 #16456] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:21:34.207278 #16456]  INFO -- Status: 200
+D, [2016-01-06T11:21:34.207365 #16456] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Tue, 05 Jan 2016 08:45:03 GMT"
+etag: "\"12a43cb-3443-5289240ea863c\""
+accept-ranges: "bytes"
+content-length: "13379"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:21:34 GMT"
+connection: "close"
+start read erb, and create html file ....
+write /home/matt/20151223/nhk/html/k10010359571000.html start
+write sent list start
+end cron job at 2016-01-06
+start cron job at 2016-01-06
+0: /home/matt/20151223/nhk/render_multi_url.js
+1: k10010360161000,k10010359561000,k10010359761000,k10010361231000,k10010351821000,k10010359471000,k10010359851000,k10010360121000,k10010359571000,k10010361061000,k10010351761000,k10010361171000
+Allright, let us use phantomjs to capture page....
+we get these 12 url to work: k10010360161000,k10010359561000,k10010359761000,k10010361231000,k10010351821000,k10010359471000,k10010359851000,k10010360121000,k10010359571000,k10010361061000,k10010351761000,k10010361171000
+This is our working home:/home/matt/20151223/nhk
+doing ... 0
+current left:  12
+Rendered '/home/matt/20151223/nhk/html/k10010360161000.html' at '/home/matt/20151223/nhk/png/k10010360161000.png'
+doing ... 1
+current left:  11
+Rendered '/home/matt/20151223/nhk/html/k10010359561000.html' at '/home/matt/20151223/nhk/png/k10010359561000.png'
+doing ... 2
+current left:  10
+Rendered '/home/matt/20151223/nhk/html/k10010359761000.html' at '/home/matt/20151223/nhk/png/k10010359761000.png'
+doing ... 3
+current left:  9
+Rendered '/home/matt/20151223/nhk/html/k10010361231000.html' at '/home/matt/20151223/nhk/png/k10010361231000.png'
+doing ... 4
+current left:  8
+Rendered '/home/matt/20151223/nhk/html/k10010351821000.html' at '/home/matt/20151223/nhk/png/k10010351821000.png'
+doing ... 5
+current left:  7
+Rendered '/home/matt/20151223/nhk/html/k10010359471000.html' at '/home/matt/20151223/nhk/png/k10010359471000.png'
+doing ... 6
+current left:  6
+Rendered '/home/matt/20151223/nhk/html/k10010359851000.html' at '/home/matt/20151223/nhk/png/k10010359851000.png'
+doing ... 7
+current left:  5
+Rendered '/home/matt/20151223/nhk/html/k10010360121000.html' at '/home/matt/20151223/nhk/png/k10010360121000.png'
+doing ... 8
+current left:  4
+Rendered '/home/matt/20151223/nhk/html/k10010359571000.html' at '/home/matt/20151223/nhk/png/k10010359571000.png'
+doing ... 9
+current left:  3
+Rendered '/home/matt/20151223/nhk/html/k10010361061000.html' at '/home/matt/20151223/nhk/png/k10010361061000.png'
+doing ... 10
+current left:  2
+Rendered '/home/matt/20151223/nhk/html/k10010351761000.html' at '/home/matt/20151223/nhk/png/k10010351761000.png'
+doing ... 11
+current left:  1
+Rendered '/home/matt/20151223/nhk/html/k10010361171000.html' at '/home/matt/20151223/nhk/png/k10010361171000.png'
+end cron job at 2016-01-06
+start cron job at 2016-01-06
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010361231000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010361061000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010361171000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010359471000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010359851000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010360121000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010360161000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010359761000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010351761000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010351821000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010359561000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010359571000.png
+end cron job at 2016-01-06
+start cron job at 2016-01-06
+I, [2016-01-06T11:46:30.289994 #24155]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2016-01-06T11:46:30.290110 #24155] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:46:30.361239 #24155]  INFO -- Status: 200
+D, [2016-01-06T11:46:30.361339 #24155] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Wed, 06 Jan 2016 02:29:00 GMT"
+etag: "\"375ff6-17819-528a11de5d5ea\""
+accept-ranges: "bytes"
+content-length: "96281"
+content-type: "application/json"
+date: "Wed, 06 Jan 2016 02:46:30 GMT"
+connection: "close"
+I, [2016-01-06T11:46:30.370831 #24155]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010360631000/k10010360631000.html
+D, [2016-01-06T11:46:30.370881 #24155] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:46:30.431361 #24155]  INFO -- Status: 200
+D, [2016-01-06T11:46:30.431445 #24155] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Wed, 06 Jan 2016 02:29:12 GMT"
+etag: "\"12aee1e-33df-528a11e9cf011\""
+accept-ranges: "bytes"
+content-length: "13279"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:46:30 GMT"
+connection: "close"
+start read erb template html file ....
+reander over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010360631000.html start
+I, [2016-01-06T11:46:30.445506 #24155]  INFO -- : get http://www3.nhk.or.jp/news/easy/k10010361011000/k10010361011000.html
+D, [2016-01-06T11:46:30.445568 #24155] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2016-01-06T11:46:31.918281 #24155]  INFO -- Status: 200
+D, [2016-01-06T11:46:31.918418 #24155] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Wed, 06 Jan 2016 02:29:12 GMT"
+etag: "\"12a28ae-39e4-528a11e9cf00f\""
+accept-ranges: "bytes"
+content-length: "14820"
+content-type: "text/html"
+date: "Wed, 06 Jan 2016 02:46:31 GMT"
+connection: "close"
+start read erb template html file ....
+reander over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010361011000.html start
+write sent list start
+end cron job at 2016-01-06
+start cron job at 2016-01-06
+0: /home/matt/20151223/nhk/render_multi_url.js
+1: k10010360631000,k10010361011000
+Allright, let us use phantomjs to capture page....
+we get these 2 url to work: k10010360631000,k10010361011000
+This is our working home:/home/matt/20151223/nhk
+doing ... 0
+current left:  2
+Rendered '/home/matt/20151223/nhk/html/k10010360631000.html' at '/home/matt/20151223/nhk/png/k10010360631000.png'
+doing ... 1
+current left:  1
+Rendered '/home/matt/20151223/nhk/html/k10010361011000.html' at '/home/matt/20151223/nhk/png/k10010361011000.png'
+end cron job at 2016-01-06
+start cron job at 2016-01-06
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010360631000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010361011000.png
+end cron job at 2016-01-06

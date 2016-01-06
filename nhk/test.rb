@@ -63,13 +63,15 @@ def generate_html(store_place, news_list)
         full_post  = news[:full_url]
         only_title = news[:only_title]
 
-        puts "start read erb, and create html file ...."
+        puts "start read erb template html file ...."
         renderer = ERB.new(File.read(File.join(BASE_HOME, "index.html.erb")))
+        puts "reander over, get result"
         result   = renderer.result(binding)
 
         html_file = File.join(store_place, "/html/", "#{news[:id]}.html")
-
-        File.open(html_file, 'w') do |f|
+        puts 'get html file location finish'
+        puts 'start to write the html file'
+        File.open(html_file, 'w:UTF-8') do |f|
           puts "write #{html_file} start"
           f.write(result)
         end

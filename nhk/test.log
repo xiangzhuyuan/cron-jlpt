@@ -1,0 +1,89 @@
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+export HOME="/home/matt"
+export LANG="C"
+export LOGNAME="matt"
+export OLDPWD
+export PATH="/usr/bin:/bin"
+export PWD="/home/matt"
+export SHELL="/bin/sh"
+export SHLVL="2"
+export USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+export HOME="/home/matt"
+export LANG="C"
+export LOGNAME="matt"
+export OLDPWD
+export PATH="/usr/bin:/bin"
+export PWD="/home/matt"
+export SHELL="/bin/sh"
+export SHLVL="2"
+export USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+export HOME="/home/matt"
+export LANG="C"
+export LOGNAME="matt"
+export OLDPWD
+export PATH="/usr/bin:/bin"
+export PWD="/home/matt"
+export SHELL="/bin/sh"
+export SHLVL="2"
+export USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+export HOME="/home/matt"
+export LANG="C"
+export LOGNAME="matt"
+export OLDPWD
+export PATH="/usr/bin:/bin"
+export PWD="/home/matt"
+export SHELL="/bin/sh"
+export SHLVL="2"
+export USER="matt"
+bash: /home/matt/20151223/nhk/test.bash: No such file or directory
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+declare -x HOME="/home/matt"
+declare -x LANG="C"
+declare -x LOGNAME="matt"
+declare -x OLDPWD
+declare -x PATH="/usr/bin:/bin"
+declare -x PWD="/home/matt"
+declare -x SHELL="/bin/sh"
+declare -x SHLVL="2"
+declare -x USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+declare -x HOME="/home/matt"
+declare -x LANG="C"
+declare -x LOGNAME="matt"
+declare -x OLDPWD
+declare -x PATH="/usr/bin:/bin"
+declare -x PWD="/home/matt"
+declare -x SHELL="/bin/sh"
+declare -x SHLVL="2"
+declare -x USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+declare -x HOME="/home/matt"
+declare -x LANG="C"
+declare -x LOGNAME="matt"
+declare -x OLDPWD
+declare -x PATH="/usr/bin:/bin"
+declare -x PWD="/home/matt"
+declare -x SHELL="/bin/sh"
+declare -x SHLVL="2"
+declare -x USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+declare -x HOME="/home/matt"
+declare -x LANG="C"
+declare -x LOGNAME="matt"
+declare -x OLDPWD
+declare -x PATH="/usr/bin:/bin"
+declare -x PWD="/home/matt"
+declare -x SHELL="/bin/sh"
+declare -x SHLVL="2"
+declare -x USER="matt"

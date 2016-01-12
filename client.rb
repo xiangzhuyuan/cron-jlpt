@@ -38,7 +38,7 @@ def get_twi(source)
       begin
         content = example[:example].split(/\r?\n/).sample.gsub("\t", " ").squeeze(" ").strip
         twi     = "#JLPT (#{example[:level]})<#{example[:title]}> #{content}"
-        twi_list << (twi.length > 110 ? twi.slice(0, 110)+ '...' : twi) + "#{example[:short_link]}"
+        twi_list << (twi.length > 110 ? twi.slice(0, 110)+ '...' : twi) + " #{example[:short_link]}"
       rescue => e
         puts e.message
       end

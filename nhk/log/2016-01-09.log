@@ -1,0 +1,48 @@
+start cron job at 2016-01-09
+end cron job at 2016-01-09
+start cron job at 2016-01-09
+0: /home/matt/20151223/nhk/render_multi_url.js
+1: k10010362601000,k10010363591000,k10010363451000
+Allright, let us use phantomjs to capture page....
+we get these 3 url to work: k10010362601000,k10010363591000,k10010363451000
+This is our working home:/home/matt
+doing ... 0
+current left:  3
+Unable to render '/home/matt/html/k10010362601000.html'
+doing ... 1
+current left:  2
+Unable to render '/home/matt/html/k10010363591000.html'
+doing ... 2
+current left:  1
+Unable to render '/home/matt/html/k10010363451000.html'
+end cron job at 2016-01-09
+start cron job at 2016-01-09
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010352321000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010353931000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010344231000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010331271000.png
+end cron job at 2016-01-09
+start cron job at 2016-01-09
+end cron job at 2016-01-09
+start cron job at 2016-01-09
+0: /home/matt/20151223/nhk/render_multi_url.js
+1: k10010362601000,k10010363591000,k10010363451000
+Allright, let us use phantomjs to capture page....
+we get these 3 url to work: k10010362601000,k10010363591000,k10010363451000
+This is our working home:/home/matt
+doing ... 0
+current left:  3
+Unable to render '/home/matt/html/k10010362601000.html'
+doing ... 1
+current left:  2
+Unable to render '/home/matt/html/k10010363591000.html'
+doing ... 2
+current left:  1
+Unable to render '/home/matt/html/k10010363451000.html'
+end cron job at 2016-01-09
+start cron job at 2016-01-09
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010352321000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010353931000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010344231000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010331271000.png
+end cron job at 2016-01-09

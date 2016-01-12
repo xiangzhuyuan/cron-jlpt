@@ -12,14 +12,16 @@ Render given urls
 @param callbackPerUrl Function called after finishing each URL, including the last URL
 @param callbackFinal Function called after finishing everything
 */
-RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
+RenderUrlsToFile = function(home, urls, callbackPerUrl, callbackFinal) {
     var getFilename, next, page, retrieve, urlIndex, webpage;
     urlIndex = 0;
     webpage = require("webpage");
     page = null;
-
-    var Base_home = fs.workingDirectory
+    // seem like it's a bug
+    //var Base_home = fs.workingDirectory
+    var Base_home = home
     console.log("This is our working home:" + Base_home)    
+    
     getFilename = function(url) {
         return url + ".png";
     };
@@ -63,10 +65,15 @@ RenderUrlsToFile = function(urls, callbackPerUrl, callbackFinal) {
     return retrieve();
 };
 
+var home = '';
 if (args.length > 1) {
     args.forEach(function(arg, i) {
         console.log(i + ': ' + arg);
     });
+    // get home
+    loc = args[0].split('/')
+    loc.pop()
+    home = loc.join('/')
     arrayOfUrls = args[1].split(',');
     console.log("Allright, let us use phantomjs to capture page....");
     console.log("we get these " + arrayOfUrls.length  +  " url to work: " + arrayOfUrls);
@@ -75,7 +82,7 @@ if (args.length > 1) {
     phantom.exit();
 }
 
-RenderUrlsToFile(arrayOfUrls, (function(status, url, file) {
+RenderUrlsToFile(home, arrayOfUrls, (function(status, url, file) {
     if (status !== "success") {
         return console.log("Unable to render '" + url + "'");
     } else {

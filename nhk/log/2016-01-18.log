@@ -1,0 +1,76 @@
+start cron job at 2016-01-18
+k10010324471000
+k10010363591000
+k10010328971000
+k10010302831000
+write sent list start
+end cron job at 2016-01-18
+start cron job at 2016-01-18
+no new png need create
+end cron job at 2016-01-18
+start cron job at 2016-01-18
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010324471000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010363591000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010328971000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010302831000.png
+end cron job at 2016-01-18
+start cron job at 2016-01-18
+start read erb template html file ....
+End read erb template html file ....
+render start ...
+render over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010375941000.html start
+start read erb template html file ....
+End read erb template html file ....
+render start ...
+render over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010374641000.html start
+start read erb template html file ....
+End read erb template html file ....
+render start ...
+render over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010370811000.html start
+start read erb template html file ....
+End read erb template html file ....
+render start ...
+render over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010371331000.html start
+k10010375941000
+k10010374641000
+k10010370811000
+k10010371331000
+write sent list start
+end cron job at 2016-01-18
+start cron job at 2016-01-18
+0: /home/matt/20151223/nhk/render_multi_url.js
+1: k10010374641000,k10010375941000,k10010370811000,k10010371331000
+Allright, let us use phantomjs to capture page....
+we get these 4 url to work: k10010374641000,k10010375941000,k10010370811000,k10010371331000
+This is our working home:/home/matt/20151223/nhk
+doing ... 0
+current left:  4
+Rendered '/home/matt/20151223/nhk/html/k10010374641000.html' at '/home/matt/20151223/nhk/png/k10010374641000.png'
+doing ... 1
+current left:  3
+Rendered '/home/matt/20151223/nhk/html/k10010375941000.html' at '/home/matt/20151223/nhk/png/k10010375941000.png'
+doing ... 2
+current left:  2
+Rendered '/home/matt/20151223/nhk/html/k10010370811000.html' at '/home/matt/20151223/nhk/png/k10010370811000.png'
+doing ... 3
+current left:  1
+Rendered '/home/matt/20151223/nhk/html/k10010371331000.html' at '/home/matt/20151223/nhk/png/k10010371331000.png'
+end cron job at 2016-01-18
+start cron job at 2016-01-18
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010375941000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010374641000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010370811000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010371331000.png
+end cron job at 2016-01-18

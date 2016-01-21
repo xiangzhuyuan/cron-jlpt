@@ -64,15 +64,18 @@ def generate_html(store_place, news_list)
         web_url    = "#{news[:id]}/#{news[:id]}.html"
         response   = @connection.get(web_url)
         page       = Nokogiri::HTML(response.body)
-        title      = page.css("#newstitle").to_s.force_encoding('utf-8')
+        title      = page.css("#newstitle").to_s.force_encoding(Encoding::UTF_8)
         content    = page.css("#newsarticle").to_s.force_encoding(Encoding::UTF_8)
         full_post  = news[:full_url].to_s.force_encoding(Encoding::UTF_8)
         only_title = news[:only_title].to_s.force_encoding(Encoding::UTF_8)
 
         puts "start read erb template html file ...."
         renderer = ERB.new(File.read(File.join(BASE_HOME, "index.html.erb")))
+        puts "End read erb template html file ...."
+        
+        puts "render start ..."
         result   = renderer.result(binding)
-        puts "reander over, get result"
+        puts "render over, get result"
         
         html_file = File.join(store_place, "/html/", "#{news[:id]}.html")
         puts 'get html file location finish'

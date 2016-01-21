@@ -13,10 +13,10 @@ export CONSUMER_SECRET="prjM7BZgvTjr7ezaSS18zbYgtQ1w2in73Emgy59Y1nmkdISL5U"
 export ACCESS_TOKEN="4446821292-fgutqEu0rFjcpG1F5elAyxPFEdrhn4nDzN0IyGv"
 export ACCESS_TOKEN_SECRET="uyXdYkgQTacdc9EAR29RfMtR4Db20tX8HvoYGQkW9z84u"
 
-DATE=`date +%Y-%m-%d`
-LOG_FILE="$(dirname $0)/log/${DATE}.log"
-echo "start cron job at ${DATE}" >> $LOG_FILE
+#DATE=`date +%Y-%m-%d`
+#LOG_FILE="$(dirname $0)/log/${DATE}.log"
+echo "start cron job at ${DATE}"
 echo "Step 1 to get all new news"
-ruby "$(dirname $0)/test.rb" >> $LOG_FILE
+ruby "$(dirname $0)/test.rb"
 echo "Step 1 end"
-echo "end cron job at ${DATE}" >> $LOG_FILE
+#echo "end cron job at ${DATE}"

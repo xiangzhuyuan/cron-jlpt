@@ -151,3 +151,15 @@ start cron job at 2016-01-12
 #NHK check this News:->/home/matt/20151223/nhk/png/k10010364111000.png
 #NHK check this News:->/home/matt/20151223/nhk/png/k10010363931000.png
 end cron job at 2016-01-12
+start cron job at 2016-01-12
+start read erb template html file ....
+incompatible character encodings: ASCII-8BIT and UTF-8
+k10010368171000
+write sent list start
+end cron job at 2016-01-12
+start cron job at 2016-01-12
+no new png need create
+end cron job at 2016-01-12
+start cron job at 2016-01-12
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010368171000.png
+end cron job at 2016-01-12

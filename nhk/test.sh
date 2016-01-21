@@ -1,3 +1,4 @@
 whoami
 id
-export
+env
+#export

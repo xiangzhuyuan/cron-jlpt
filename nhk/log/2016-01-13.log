@@ -1,0 +1,67 @@
+start cron job at 2016-01-13
+start read erb template html file ....
+incompatible character encodings: ASCII-8BIT and UTF-8
+k10010368171000
+write sent list start
+end cron job at 2016-01-13
+start cron job at 2016-01-13
+no new png need create
+end cron job at 2016-01-13
+start cron job at 2016-01-13
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010368171000.png
+end cron job at 2016-01-13
+start cron job at 2016-01-13
+uninitialized constant Encoding::UTF
+k10010368171000
+write sent list start
+end cron job at 2016-01-13
+start cron job at 2016-01-13
+start read erb template html file ....
+End read erb template html file ....
+render start ...
+render over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010368171000.html start
+start read erb template html file ....
+End read erb template html file ....
+render start ...
+render over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010367131000.html start
+k10010368171000
+k10010367131000
+write sent list start
+end cron job at 2016-01-13
+start cron job at 2016-01-13
+0: /home/matt/20151223/nhk/render_multi_url.js
+1: k10010367131000,k10010368171000
+Allright, let us use phantomjs to capture page....
+we get these 2 url to work: k10010367131000,k10010368171000
+This is our working home:/home/matt/20151223/nhk
+doing ... 0
+current left:  2
+Rendered '/home/matt/20151223/nhk/html/k10010367131000.html' at '/home/matt/20151223/nhk/png/k10010367131000.png'
+doing ... 1
+current left:  1
+Rendered '/home/matt/20151223/nhk/html/k10010368171000.html' at '/home/matt/20151223/nhk/png/k10010368171000.png'
+end cron job at 2016-01-13
+start cron job at 2016-01-13
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010368171000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010367131000.png
+end cron job at 2016-01-13
+start cron job at 2016-01-13
+start read erb template html file ....
+End read erb template html file ....
+render start ...
+incompatible character encodings: ASCII-8BIT and UTF-8
+k10010368871000
+write sent list start
+end cron job at 2016-01-13
+start cron job at 2016-01-13
+no new png need create
+end cron job at 2016-01-13
+start cron job at 2016-01-13
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010368871000.png
+end cron job at 2016-01-13

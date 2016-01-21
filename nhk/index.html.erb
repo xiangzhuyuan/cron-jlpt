@@ -20,18 +20,18 @@
   <script type="text/javascript" src="./assets/social_buttons.js" charset="UTF-8"></script>
   <script type="text/javascript" src="./assets/social_default_parameter.js" charset="UTF-8"></script>
   <script type="text/javascript" src="./assets/g.js" charset="UTF-8"></script>
-  <title><%= only_title %></title>
+  <title><%= only_title.force_encoding("utf-8") %></title>
 
 </head>
 <body>
 <header>
   <h2 id='title'></h2>
-  <%= title %>
+  <%= title.force_encoding("utf-8") %>
 
 </header>
 <article>
   <div id="content">
-    <%= content %>
+    <%= content.force_encoding("utf-8") %>
   </div>
 </article>
 <footer>ref: <%= full_post %></footer>

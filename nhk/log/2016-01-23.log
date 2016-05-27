@@ -1,0 +1,62 @@
+start cron job at 
+Step 1 to get all new news
+start read erb template html file ....
+End read erb template html file ....
+render start ...
+render over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010380881000.html start
+start read erb template html file ....
+End read erb template html file ....
+render start ...
+render over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010381151000.html start
+start read erb template html file ....
+End read erb template html file ....
+render start ...
+render over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010379331000.html start
+start read erb template html file ....
+End read erb template html file ....
+render start ...
+render over, get result
+get html file location finish
+start to write the html file
+write /home/matt/20151223/nhk/html/k10010378381000.html start
+k10010380881000
+k10010381151000
+k10010379331000
+k10010378381000
+write sent list start
+Step 1 end
+Step2 start
+0: /home/matt/20151223/nhk/render_multi_url.js
+1: k10010381151000,k10010378381000,k10010379331000,k10010380881000
+Allright, let us use phantomjs to capture page....
+we get these 4 url to work: k10010381151000,k10010378381000,k10010379331000,k10010380881000
+This is our working home:/home/matt/20151223/nhk
+doing ... 0
+current left:  4
+Rendered '/home/matt/20151223/nhk/html/k10010381151000.html' at '/home/matt/20151223/nhk/png/k10010381151000.png'
+doing ... 1
+current left:  3
+Rendered '/home/matt/20151223/nhk/html/k10010378381000.html' at '/home/matt/20151223/nhk/png/k10010378381000.png'
+doing ... 2
+current left:  2
+Rendered '/home/matt/20151223/nhk/html/k10010379331000.html' at '/home/matt/20151223/nhk/png/k10010379331000.png'
+doing ... 3
+current left:  1
+Rendered '/home/matt/20151223/nhk/html/k10010380881000.html' at '/home/matt/20151223/nhk/png/k10010380881000.png'
+End step 2
+Step 3 start
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010380881000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010381151000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010379331000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010378381000.png
+Step3 end
+end cron job at 

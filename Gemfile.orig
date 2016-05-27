@@ -1,0 +1,27 @@
+
+source 'https://rubygems.org'
+gem 'twitter'
+gem 'jruby-openssl', platforms: :jruby
+gem 'rake'
+gem 'yard'
+gem 'typhoeus'
+<<<<<<< 3be6285038b9bcd37877ecf91c8699c50b8fa7f6
+gem 'nokogiri'
+=======
+
+>>>>>>> init
+group :development do
+  gem 'pry'
+end
+
+group :test do
+  gem 'coveralls'
+  gem 'rspec', '>= 2.14'
+  gem 'rubocop', '>= 0.27'
+  gem 'simplecov', '>= 0.9'
+  gem 'timecop'
+  gem 'webmock'
+  gem 'yardstick'
+end
+gem 'log4r'
+gem "mini_magick"

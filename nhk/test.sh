@@ -1,0 +1,4 @@
+whoami
+id
+env
+#export

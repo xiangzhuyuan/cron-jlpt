@@ -1,0 +1,52 @@
+start cron job at 2015-12-30
+I, [2015-12-30T09:45:03.911413 #29918]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-30T09:45:03.911528 #29918] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-30T09:45:03.979739 #29918]  INFO -- Status: 200
+D, [2015-12-30T09:45:03.979843 #29918] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Sat, 26 Dec 2015 07:51:35 GMT"
+etag: "\"11e7cb2-19b14-527c8574a9027\""
+accept-ranges: "bytes"
+content-length: "105236"
+content-type: "application/json"
+date: "Wed, 30 Dec 2015 00:45:03 GMT"
+connection: "close"
+write sent list start
+end cron job at 2015-12-30
+start cron job at 2015-12-30
+no new png need create
+end cron job at 2015-12-30
+start cron job at 2015-12-30
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010319721000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010319131000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010353921000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010347301000.png
+end cron job at 2015-12-30
+start cron job at 2015-12-30
+I, [2015-12-30T17:45:03.871017 #14489]  INFO -- : get http://www3.nhk.or.jp/news/easy/news-list.json
+D, [2015-12-30T17:45:03.871129 #14489] DEBUG -- request: User-Agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like\n Gecko) Version/7.0.3 Safari/7046A194A Safari 6.0"
+I, [2015-12-30T17:45:04.232114 #14489]  INFO -- Status: 200
+D, [2015-12-30T17:45:04.232214 #14489] DEBUG -- response: server: "Apache"
+access-control-allow-origin: "*"
+access-control-allow-headers: "Origin, X-Requested-With, Content-Type, Accept"
+access-control-allow-methods: "GET, POST"
+last-modified: "Sat, 26 Dec 2015 07:51:35 GMT"
+etag: "\"11e7cb2-19b14-527c8574a9027\""
+accept-ranges: "bytes"
+content-length: "105236"
+content-type: "application/json"
+date: "Wed, 30 Dec 2015 08:45:04 GMT"
+connection: "close"
+write sent list start
+end cron job at 2015-12-30
+start cron job at 2015-12-30
+no new png need create
+end cron job at 2015-12-30
+start cron job at 2015-12-30
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010300691000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010344231000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010335771000.png
+#NHK check this News:->/home/matt/20151223/nhk/png/k10010326121000.png
+end cron job at 2015-12-30

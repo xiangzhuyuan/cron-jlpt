@@ -1,0 +1,547 @@
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+export HOME="/home/matt"
+export LANG="C"
+export LOGNAME="matt"
+export OLDPWD
+export PATH="/usr/bin:/bin"
+export PWD="/home/matt"
+export SHELL="/bin/sh"
+export SHLVL="2"
+export USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+export HOME="/home/matt"
+export LANG="C"
+export LOGNAME="matt"
+export OLDPWD
+export PATH="/usr/bin:/bin"
+export PWD="/home/matt"
+export SHELL="/bin/sh"
+export SHLVL="2"
+export USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+export HOME="/home/matt"
+export LANG="C"
+export LOGNAME="matt"
+export OLDPWD
+export PATH="/usr/bin:/bin"
+export PWD="/home/matt"
+export SHELL="/bin/sh"
+export SHLVL="2"
+export USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+export HOME="/home/matt"
+export LANG="C"
+export LOGNAME="matt"
+export OLDPWD
+export PATH="/usr/bin:/bin"
+export PWD="/home/matt"
+export SHELL="/bin/sh"
+export SHLVL="2"
+export USER="matt"
+bash: /home/matt/20151223/nhk/test.bash: No such file or directory
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+declare -x HOME="/home/matt"
+declare -x LANG="C"
+declare -x LOGNAME="matt"
+declare -x OLDPWD
+declare -x PATH="/usr/bin:/bin"
+declare -x PWD="/home/matt"
+declare -x SHELL="/bin/sh"
+declare -x SHLVL="2"
+declare -x USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+declare -x HOME="/home/matt"
+declare -x LANG="C"
+declare -x LOGNAME="matt"
+declare -x OLDPWD
+declare -x PATH="/usr/bin:/bin"
+declare -x PWD="/home/matt"
+declare -x SHELL="/bin/sh"
+declare -x SHLVL="2"
+declare -x USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+declare -x HOME="/home/matt"
+declare -x LANG="C"
+declare -x LOGNAME="matt"
+declare -x OLDPWD
+declare -x PATH="/usr/bin:/bin"
+declare -x PWD="/home/matt"
+declare -x SHELL="/bin/sh"
+declare -x SHLVL="2"
+declare -x USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+declare -x HOME="/home/matt"
+declare -x LANG="C"
+declare -x LOGNAME="matt"
+declare -x OLDPWD
+declare -x PATH="/usr/bin:/bin"
+declare -x PWD="/home/matt"
+declare -x SHELL="/bin/sh"
+declare -x SHLVL="2"
+declare -x USER="matt"
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+SHELL=/bin/sh
+USER=matt
+PATH=/usr/bin:/bin
+PWD=/home/matt
+LANG=C
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+SHELL=/bin/sh
+USER=matt
+PATH=/usr/bin:/bin
+PWD=/home/matt
+LANG=C
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+SHELL=/bin/sh
+USER=matt
+PATH=/usr/bin:/bin
+PWD=/home/matt
+LANG=C
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+SHELL=/bin/sh
+USER=matt
+PATH=/usr/bin:/bin
+PWD=/home/matt
+LANG=C
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+SHELL=/bin/sh
+USER=matt
+PATH=/usr/bin:/bin
+PWD=/home/matt
+LANG=C
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+_=/usr/bin/env
+OLDPWD=/home/matt
+LC_CTYPE=en_US.UTF-8
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+SHELL=/bin/sh
+USER=matt
+PATH=/usr/bin:/bin
+PWD=/home/matt
+LANG=C
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+_=/usr/bin/env
+OLDPWD=/home/matt
+LC_CTYPE=en_US.UTF-8
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt
+matt
+uid=500(matt) gid=500(matt) groups=500(matt),10(wheel)
+LC_PAPER=en_US.UTF-8
+LC_ADDRESS=en_US.UTF-8
+LC_MONETARY=en_US.UTF-8
+SHELL=/bin/sh
+LC_NUMERIC=en_US.UTF-8
+USER=matt
+LC_TELEPHONE=en_US.UTF-8
+PATH=/usr/bin:/bin
+LC_MESSAGES=en_US.UTF-8
+LC_IDENTIFICATION=en_US.UTF-8
+LC_COLLATE=en_US.UTF-8
+PWD=/home/matt
+LANG=C
+LC_MEASUREMENT=en_US.UTF-8
+SHLVL=2
+HOME=/home/matt
+LOGNAME=matt
+LC_CTYPE=en_US.UTF-8
+LC_TIME=en_US.UTF-8
+LC_NAME=en_US.UTF-8
+_=/usr/bin/env
+OLDPWD=/home/matt

@@ -1,0 +1,56 @@
+body {
+    background: #ffffff;
+    -moz-font-feature-settings: normal;
+    -moz-font-language-override: normal;
+    background-color: #F4F5ED;
+    color: #333333;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Arial, verdana, sans-serif;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 2;
+    font-size: 1em;
+}
+
+header, article {
+    width: 440px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+a {
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #999999;
+    outline: none;
+    text-decoration: underline;
+}
+
+rt {
+    font-size: 65.5%;
+    margin: 0;
+}
+
+ruby rt {
+    line-height: 80%;
+}
+
+ruby span {
+    line-height: 150%;
+}
+
+rp {
+    display: none;
+}
+
+footer {
+    float: right;
+    font-size: 0.6em;
+    padding: 10px 20px 15px 0px;
+}

@@ -1,3 +1,9 @@
+# Welcome to follow this twitter account:
+
+> https://twitter.com/JlptB
+
+here, you can get some resources for leaning Japanesee
+
 # Use the  Twitter Ruby Gem
 
 ### get  sth from internet and

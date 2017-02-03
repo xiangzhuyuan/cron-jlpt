@@ -1,12 +1,3 @@
-start cron job at 2016-03-01
-handling the 1
-#VOCABULARY Check this vocabulary, resource from: japanesetest4you.com®->/home/matt/20151223/japanesetest4you/new_img/jpvocab28-n5.jpg
-handling the 2
-#VOCABULARY Check this vocabulary, resource from: japanesetest4you.com®->/home/matt/20151223/japanesetest4you/new_img/jpvocab431-n3.jpg
-handling the 3
-#VOCABULARY Check this vocabulary, resource from: japanesetest4you.com®->/home/matt/20151223/japanesetest4you/new_img/jpvocab72-n4.jpg
-handling the 4
-#VOCABULARY Check this vocabulary, resource from: japanesetest4you.com®->/home/matt/20151223/japanesetest4you/new_img/jpvocab86.jpg
-handling the 5
-#VOCABULARY Check this vocabulary, resource from: japanesetest4you.com®->/home/matt/20151223/japanesetest4you/new_img/jpvocab170-n5.jpg
-end cron job at 2016-03-01
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7598d9790ac384fbda8d8683b72384334537049fea3baa8c4ec27fb7e382506
+size 810

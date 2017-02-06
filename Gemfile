@@ -20,3 +20,6 @@ group :test do
 end
 gem 'log4r'
 gem "mini_magick"
+
+gem 'imgkit'
+gem 'wkhtmltoimage-binary'

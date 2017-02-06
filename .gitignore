@@ -1,3 +1,6 @@
+*.html
+*.png
+*.log
 *.gem
 *~
 .bundle

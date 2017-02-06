@@ -1,0 +1,16 @@
+➜  20151223 git:(20160831) ✗ crontab -l
+0 9 * * * zsh /home/matt/20151223/siji/sent.sh
+0 9 * * * zsh /home/matt/20151223/nhk/sent_jlpt_bot_1.sh  >>/home/matt/20151223/nhk/log/cron.log
+1 9 * * * zsh /home/matt/20151223/nhk/sent_jlpt_bot_2.sh  >>/home/matt/20151223/nhk/log/cron.log
+2 9 * * * zsh /home/matt/20151223/nhk/sent_jlpt_bot_3.sh  >>/home/matt/20151223/nhk/log/cron.log
+0 9 * * * zsh /home/matt/20151223/japanesetest4you/sent_jlpt_bot.sh >> /home/matt/20151223/japanesetest4you/log/cron.log
+0 9 * * * zsh /home/matt/20151223/sent_jlpt_bot.sh  >>/home/matt/20151223/log/cron.log
+
+
+
+0 19 * * * zsh /home/matt/20151223/siji/sent.sh
+0 19 * * * zsh /home/matt/20151223/nhk/sent_jlpt_bot_1.sh  >>/home/matt/20151223/nhk/log/cron.log
+1 19 * * * zsh /home/matt/20151223/nhk/sent_jlpt_bot_2.sh  >>/home/matt/20151223/nhk/log/cron.log
+2 19 * * * zsh /home/matt/20151223/nhk/sent_jlpt_bot_3.sh  >>/home/matt/20151223/nhk/log/cron.log
+0 19 * * * zsh /home/matt/20151223/japanesetest4you/sent_jlpt_bot.sh >> /home/matt/20151223/japanesetest4you/log/cron.log
+0 19 * * * zsh /home/matt/20151223/sent_jlpt_bot.sh  >>/home/matt/20151223/log/cron.log

@@ -185,7 +185,7 @@ def sent_twi_with_image(content, image_path)
 end
 
 twi_hsh.each do |twi|
-  # sent_twi_with_image("#{twi[:content]}", twi[:img])
-  puts twi[:content]
+  sent_twi_with_image("#{twi[:content]}", twi[:img])
+  # puts twi[:content]
   sleep 1
 end

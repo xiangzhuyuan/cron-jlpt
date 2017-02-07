@@ -76,7 +76,7 @@ LANGUAGE.each do |language|
     result = renderer.result(binding)
 
     html_file = File.join(BASE_HOME, "/html/", "#{TODAY}_#{tmp_language.split(" ").join}_#{frequent}.html")
-    img_file  = File.join(BASE_HOME, "/img/", "#{TODAY}_#{tmp_language.split(" ").join}_#{frequent}.png")
+    img_file  = File.join(BASE_HOME, "/img/", "#{TODAY}_#{tmp_language.split(" ").join}_#{frequent}.jpg")
 
     File.open(html_file, 'w:UTF-8') do |f|
       puts "Start write #{html_file} start"
@@ -141,7 +141,7 @@ LANGUAGE.each do |language|
     result = renderer.result(binding)
 
     html_file = File.join(BASE_HOME, "/html/", "#{TODAY}_#{language}_most_#{type}.html")
-    img_file  = File.join(BASE_HOME, "/img/", "#{TODAY}_#{language}_most_#{type}.png")
+    img_file  = File.join(BASE_HOME, "/img/", "#{TODAY}_#{language}_most_#{type}.jpg")
 
     File.open(html_file, 'w:UTF-8') do |f|
       puts "Start write #{html_file} start"
@@ -150,7 +150,7 @@ LANGUAGE.each do |language|
     end
 
 
-    kit = IMGKit.new(File.new(html_file), :width => 500)
+    kit = IMGKit.new(File.new(html_file), :width => 500, :quality => 50)
     kit.to_file(img_file)
 
     twi_hsh << {
@@ -187,5 +187,5 @@ end
 twi_hsh.each do |twi|
   sent_twi_with_image("#{twi[:content]}", twi[:img])
   # puts twi[:content]
-  sleep 1
+  sleep 3
 end
